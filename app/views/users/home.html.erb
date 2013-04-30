@@ -23,8 +23,8 @@
 
 <form method="post">
   <div id="subscribe">
-    <input type="text" placeholder="enter your email address...">
-    <input type="submit" value="Submit">
+    <%=text_field_tag(:email, nil, :placeholder => 'enter email address here...')%>
+    <%=submit_tag(:submit)%>
     <div class="clear"></div>
   </div>
 </form>
